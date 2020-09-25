@@ -12,8 +12,8 @@ n_4 = 1 + 2 * 5 # valor número, tipo inteiro
 
 n_5 = delimitador*5 #valor letra, tipo string
 
-print(n_1)
-print(n_2)
-print(n_3)
-print(n_4)
-print(n_5)
+print(n_1, type(n_1))
+print(n_2, type(n_2))
+print(n_3, type(n_3))
+print(n_4, type(n_4))
+print(n_5, type(n_5))

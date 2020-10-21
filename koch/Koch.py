@@ -1,7 +1,7 @@
 import turtle as tu
 def koch(t,x,n):
-    ''' função para criar uma curva de koch simples com argumentos (t,x,n), onde o primeiro argumeto deve ser a tartaruga turtle.Turtle
-        o segundo argumento o comprimento x do 
+    ''' função para criar uma curva de koch simples com argumentos (t,x,n), onde o primeiro argumeto deve ser a tartaruga turtle.Turtle()
+        o segundo argumento o comprimento x da curva de Koch e o terceiro deve ser 2, futuramente a ser implantando n para o número de ramos na curva.
     '''
     
     angle = 60
@@ -24,6 +24,10 @@ def koch(t,x,n):
 
 
 def snowflake(t,x,n):
+    '''
+    Função para desenhar um floco de neve (t,x,n),onde o primeiro argumeto deve ser a tartaruga turtle.Turtle()
+    o segundo argumento o comprimento x da curva de Koch e o terceiro deve ser 2, futuramente a ser implantando n para o número de ramos na curva.
+    '''
     for v in range(0,3):
         koch(t,x,n)
         t.right(120)
